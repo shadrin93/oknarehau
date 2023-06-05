@@ -1,0 +1,26 @@
+.garanty {
+	margin-top: 90px;
+	&__wrapper {
+		margin-top: 40px;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(2,minmax(200px, auto));
+		grid-auto-rows: minmax(200px, auto);
+		grid-gap: 10px;
+	}
+	&__item {
+		padding: 20px 28px 28px 35px;
+		background-color: $white;
+		border-radius: 10px;
+		p {
+			margin-top: 15px;
+		}
+	}
+	&__title {
+		display: flex;
+		align-items: center;
+	}
+	&__icon {
+		margin-right: 25px;
+	}
+}

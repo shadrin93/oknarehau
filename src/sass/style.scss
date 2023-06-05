@@ -1,0 +1,68 @@
+@import 'libs/bootstrap-reboot.min.scss';
+@import 'libs/fonts.scss';
+@import 'libs/slick.scss';
+
+@import 'base/variables';
+@import 'base/mixins';
+
+
+
+
+* {
+	font-family: 'Corsa Grotesk', 'Actay' sans-serif;
+	margin: 0;
+	padding: 0;
+	color: $black-color;
+}
+body {
+	background-color: $white-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+p {
+	margin-bottom: 0;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: $black-color;
+	&:hover {
+		transition: all .2s ease;
+		color: $blue-color;
+	}
+}
+
+
+@import 'blocks/preloader';
+@import 'blocks/title';
+@import 'blocks/button';
+@import 'blocks/header';
+@import 'blocks/nav';
+@import 'blocks/slider';
+@import 'blocks/promo';
+@import 'blocks/application';
+@import 'blocks/form';
+@import 'blocks/garanty';
+@import 'blocks/servises';
+@import 'blocks/stage';
+@import 'blocks/works';
+@import 'blocks/reviews';
+@import 'blocks/partners';
+@import 'blocks/heat';
+@import 'blocks/sale';
+@import 'blocks/zero';
+@import 'blocks/pay';
+@import 'blocks/froze';
+@import 'blocks/about';
+@import 'blocks/question';
+@import 'blocks/contacts';
+@import 'blocks/footer';
+@import 'blocks/privacy';
+@import 'blocks/modal';

@@ -1,0 +1,25 @@
+.question {
+	margin-top: 160px;
+	&__wrapper {
+		position: relative;
+		padding: 40px 73px;
+		background-color: $white;
+		border-radius: 10px;
+	}
+	&__descr {
+		margin-top: 7px;
+	}
+	&__btn {
+		display: inline-block;
+		margin-top: 40px;
+		margin-right: 20px;
+		&:hover {
+			color: $black-color;
+		}
+	}
+	&__img {
+		position: absolute;
+		bottom: 0px;
+		right: 25px;
+	}
+}

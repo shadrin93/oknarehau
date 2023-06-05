@@ -1,0 +1,45 @@
+.header {
+	border-bottom: 1px solid #dadada;
+	background-color: #fff;
+	&__wrapper {
+		padding: 35px 0 15px 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+	}
+	&__logo {
+		display: flex;
+	}
+	&__contacts {
+		display: flex;
+	}
+	&__location {
+		margin-left: 55px;
+	}
+	&__mail {
+		margin-right: 40px;
+		text-align: right;
+		&_link {
+			color: $darkblue-color;
+		}
+	}
+	&__phone {
+		margin-right: 50px;
+		text-align: right;
+		&_link {
+			color: $darkblue-color;
+		}
+	}
+	&__social {
+		margin-right: 50px;
+		align-self: center;
+
+		svg {
+			&:hover path {
+				transition: all .2s ease;
+				fill: #2BB741;
+			}
+		}
+	}
+}

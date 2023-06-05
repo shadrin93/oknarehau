@@ -1,0 +1,43 @@
+.froze {
+	padding-top: 90px;
+	&__wrapper {
+		background-color: $blue-color;
+		border-radius: 10px;
+		padding: 40px 73px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__descr, .h2, .h3 {
+		color: $white;
+	}
+	&__what {
+		margin-top: 30px;
+		max-width: 410px;
+	}
+
+	&__list {
+		margin-bottom: 0;
+		padding-left: 20px;
+		list-style-type: none;
+		margin-top: 20px;
+	}
+	&__descr {
+		position: relative;
+		margin-top: 10px;
+		&::before {
+			content: '';
+			position: absolute;
+			top: 8px;
+			left: -20px;
+			background: url(../icons/check-icon.svg) center center/cover no-repeat;
+			width: 10px;
+			height: 10px;
+		}
+	}
+	&__form {
+
+	}
+	&__btn {
+		width: 50px;
+	}
+}

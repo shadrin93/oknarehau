@@ -1,0 +1,47 @@
+.h1 {
+	font-family: 'Actay';
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 51px;
+	color: $darkblue-color;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+.h2 {
+	font-family: 'Corsa Grotesk';
+	font-weight: 400;
+	font-size: 45px;
+	line-height: 55px;
+	color: $darkblue-color;
+}
+.h3 {
+	font-family: 'Corsa Grotesk';
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	color: $black-color;
+}
+.h4 {
+	font-family: 'Corsa Grotesk';
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 21px;
+	color: $black-color;
+}
+.descr {
+	font-family: 'Corsa Grotesk';
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 19px;
+	color: $black-color;
+	letter-spacing: 0.02em;
+}
+.fz13-light {
+	font-family: 'Corsa Grotesk';
+	font-style: normal;
+	font-weight: 250;
+	font-size: 13px;
+	line-height: 16px;
+	color: $black-color;
+	letter-spacing: 0.05em;
+}

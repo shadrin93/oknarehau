@@ -1,0 +1,70 @@
+.footer {
+	margin-top: 100px;
+	background-color: $blue-color;
+	padding: 40px 0 100px 0;
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__contacts {
+		display: flex;
+		gap: 170px;
+		.h4 {
+			color: $white-color;
+		}
+	}
+	&__nav__list {
+		list-style-type: none;
+		margin-bottom: 0;
+		padding-left: 0;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+	&__nav__item {
+		margin-top: 10px;
+		color: $white-color;
+		a {
+			color: $white-color;
+			&:hover {
+				color: $white-dark;
+			}
+		}
+	}
+	&__buttons {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		&-made {
+			color: $white-color;
+			a {
+				color: $white-dark;
+				text-decoration: underline;
+				&:hover {
+					color: $white-color;
+				}
+			}
+		}
+	}
+	&__button {
+		color: $white-color;
+		&:hover {
+			color: $black-color;
+		}
+	}
+
+	&__logo {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		a {
+			color: $white-dark;
+			&:hover {
+				color: $white-color;
+			}
+		}
+		&-copy {
+			color: $white-dark;
+			margin-top: 8px;
+		}
+	}
+}

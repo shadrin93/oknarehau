@@ -1,0 +1,93 @@
+.promo {
+	height: 656px;
+	&__wrapper {
+		position: relative;
+		height: 100%;
+	}
+	&__slide {
+		position: relative;
+		padding-left: 15px;
+	}
+	&__text {
+		width: 605px;
+		padding: 30px 40px 40px 40px;
+		background: rgba(255, 255, 255, 0.3);
+		border: 1px solid rgba(255, 255, 255, 0.4);
+		box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(5px);
+		border-radius: 10px;
+		margin-top: 35px;
+	}
+	&__subtitle {
+		font-family: 'Corsa Grotesk';
+		font-weight: 100;
+		font-size: 25px;
+		line-height: 35px;
+		text-transform: uppercase;
+	}
+	&__descr {
+		margin-top: 6px;
+	}
+	&__btn {
+		display: inline-block;
+		margin-top: 40px;
+		&:hover {
+			color: $black-color;
+		}
+	}
+	&__icontext	{
+		position: absolute;
+		bottom: 40px;
+		left: 15px;
+		display: inline-flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 15px 30px;
+		background: rgba(255, 255, 255, 0.3);
+		border: 1px solid rgba(255, 255, 255, 0.4);
+		border-radius: 10px;
+		box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(5px);
+		width: 500px;
+		&_item {
+			display: flex;
+		}
+		&_descr {
+			margin-left: 10px;
+			span {
+				font-family: 'Corsa Grotesk';
+				font-weight: 400;
+				font-size: 27px;
+				line-height: 27px;
+			}
+		}
+	}
+	&__bgimg {
+		position: absolute;
+		top: 0px;
+		right: 0;
+		width: 922px;
+		height: 656px;
+		z-index: -1;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	.slick-slider {
+		height: 656px;;
+	}
+	.slick-list {
+		height: 100%;
+	}
+	.slick-slide {
+		position: relative;
+	}
+	.slick-track {
+		position: relative;
+		height: 100%;
+	}
+
+}

@@ -1,0 +1,39 @@
+.sale {
+	margin-top: 90px;
+	&__wrapper {
+		margin-top: 40px;
+	}
+	&__item {
+		position: relative;
+		padding: 30px 35px 25px 35px;
+		width: 513px;
+		height: 280px;
+		margin-right: 10px;
+	}
+	&__img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		z-index: -1;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			border-radius: 10px;
+		}
+	}
+	.h3 {
+		color: $white;
+	}
+	&__btn {
+		position: absolute;
+		bottom: 25px;
+		left: 35px;
+	}
+	&__descr {
+		color: $white;
+		margin-top: 10px;
+	}
+}

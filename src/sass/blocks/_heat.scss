@@ -1,0 +1,20 @@
+.heat {
+	margin-top: 90px;
+	height: 261px;
+	background: url(../../img/heat/bg-heat.jpg) center center/cover no-repeat;
+	padding: 40px 0;
+	&__wrapper {
+		position: relative;
+	}
+	&__descr {
+		margin-top: 7px;
+	}
+	&__btn {
+		margin-top: 50px;
+	}
+	&__img {
+		position: absolute;
+		bottom: -40px;
+		right: 0;
+	}
+}

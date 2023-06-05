@@ -1,0 +1,110 @@
+.appl-form *,
+.form-froze * {
+	outline: none;
+}
+
+.appl-form {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	gap: 15px;
+	input {
+		width: 380px;
+		height: 50px;
+		padding: 15px 20px;
+		background: $white;
+		border: 1px solid #A2D5F2;
+		box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+		border-radius: 5px;
+		font-family: 'Corsa Grotesk';
+		font-weight: 400;
+		font-size: 15px;
+		color: $black-color;
+		transition: all .3s ease;
+		&:focus {
+			box-shadow: 0 4px 15px rgba(255, 255, 255, 0.4);
+		}
+	}
+	::placeholder {
+		font-family: 'Corsa Grotesk';
+		font-weight: 400;
+		font-size: 16px;
+		color: #7A7A7A;
+	}
+	&__btn {
+		margin-left: 5px;
+	}
+	&__privacy {
+		margin-top: 17px;
+		color: $white-dark;
+		text-align: center;
+		a {
+			color: $white-dark;
+			text-decoration: underline;
+			&:hover {
+				color: $white;
+			}
+		}
+	}
+}
+
+.form-froze {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	input {
+		width: 380px;
+		height: 50px;
+		padding: 15px 20px;
+		background: $white;
+		border: 1px solid #A2D5F2;
+		box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+		border-radius: 5px;
+		font-family: 'Corsa Grotesk';
+		font-weight: 400;
+		font-size: 15px;
+		color: $black-color;
+		transition: all .3s ease;
+		&:focus {
+			box-shadow: 0 4px 15px rgba(255, 255, 255, 0.4);
+		}
+	}
+	::placeholder {
+		font-family: 'Corsa Grotesk';
+		font-weight: 400;
+		font-size: 16px;
+		color: #7A7A7A;
+	}
+	textarea {
+		width: 380px;
+		height: 115px;
+		padding: 15px 20px;
+		background: $white;
+		border: 1px solid #A2D5F2;
+		box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+		border-radius: 5px;
+		font-family: 'Corsa Grotesk';
+		font-weight: 400;
+		font-size: 15px;
+		color: $black-color;
+		resize: none;
+		&:focus {
+			box-shadow: 0 4px 15px rgba(255, 255, 255, 0.4);
+		}
+	}
+	&__btn {
+		margin-top: 5px;
+		width: 217px;
+	}
+	&__privacy {
+		margin-top: 2px;
+		color: $white-dark;
+		a {
+			color: $white-dark;
+			text-decoration: underline;
+			&:hover {
+				color: $white;
+			}
+		}
+	}
+}

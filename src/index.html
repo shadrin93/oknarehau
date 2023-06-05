@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="noindex, nofollow">
+	<link rel="apple-touch-icon" sizes="57x57" href="icons/favicon/favicon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="icons/favicon/favicon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="icons/favicon/favicon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="icons/favicon/favicon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="icons/favicon/favicon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="icons/favicon/favicon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="icons/favicon/favicon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="icons/favicon/favicon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="icons/favicon/favicon-180x180.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="icons/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="icons/favicon/favicon-192x192.png">
+	<link rel="shortcut icon" type="image/x-icon" href="icons/favicon/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="icons/favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="icons/favicon/favicon-144x144.png">
+	<meta name="msapplication-config" content="icons/favicon/browserconfig.xml">
+	<link rel="manifest" href="icons/favicon/manifest.json">
+	<meta name="theme-color" content="#ffffff">
+	<title>Окна РЕХАУ</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="preloader">
+		<svg class="preloader__image" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+			<path fill="currentColor"
+				d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z">
+			</path>
+		</svg>
+		<img src="icons/logo-main.svg" alt="logo" class="logo-loader">
+	</div>
+
+	<header class="header">
+		<div class="container">
+			<div class="header__wrapper">
+				<div class="header__logo">
+					<a href="/" class="header__logo_img">
+						<img src="icons/logo-main.svg" alt="logo">
+					</a>
+					<div class="header__location descr">Работаем в Рязани<br>и Рязанской области</div>
+				</div>
+				<div class="header__contacts">
+					<a href="https://wa.me/79156261240" target="_blank" class="header__social">
+						<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd"
+								d="M15 2.09302C7.87167 2.09302 2.09302 7.87167 2.09302 15C2.09302 16.9527 2.52597 18.8014 3.30011 20.4579C3.38909 20.6483 3.41869 20.861 3.38505 21.0685L2.39068 27.2016C2.35248 27.4373 2.55691 27.6408 2.79237 27.6016L8.86956 26.5887C9.08001 26.5536 9.29615 26.5837 9.48902 26.6749C11.159 27.4647 13.0264 27.907 15 27.907C22.1283 27.907 27.907 22.1283 27.907 15C27.907 7.87167 22.1283 2.09302 15 2.09302ZM0 15C0 6.71573 6.71573 0 15 0C23.2843 0 30 6.71573 30 15C30 23.2843 23.2843 30 15 30C12.8286 30 10.7625 29.538 8.89684 28.706L3.13646 29.6661C1.48824 29.9408 0.0572126 28.5161 0.324634 26.8667L1.26841 21.0456C0.452558 19.195 0 17.149 0 15Z"
+								fill="#1B1B1B" />
+							<path
+								d="M20.5812 19.3411V18.7324C20.5812 17.9764 20.1209 17.2965 19.419 17.0157L18.768 16.7553C18.5385 16.6635 18.299 16.632 18.0675 16.6539C17.1696 16.7388 16.2344 17.3593 15.4386 16.9348C14.9997 16.7006 14.5147 16.3753 14.0696 15.9302C13.6246 15.4852 13.2993 15.0002 13.0651 14.5612C12.6406 13.7655 13.2611 12.8303 13.3459 11.9324C13.3678 11.7009 13.3363 11.4613 13.2445 11.2319L12.9841 10.5809C12.7034 9.87891 12.0235 9.41861 11.2674 9.41861H10.6588C9.97376 9.41861 9.41846 9.97392 9.41846 10.6589C9.41846 16.139 13.8609 20.5814 19.3409 20.5814C20.0259 20.5814 20.5812 20.0261 20.5812 19.3411Z"
+								fill="#1B1B1B" />
+						</svg>
+					</a>
+					<div class="header__mail">
+						<div class="header__mail_descr fz13-light">электронная почта</div>
+						<a href="mailto:okna@rehau-ryazan.ru" class="header__mail_link h4">okna@rehau-ryazan.ru</a>
+					</div>
+					<div class="header__phone">
+						<div class="header__phone_descr fz13-light">ежедневно с 9:00-19:00</div>
+						<a href="tel:79156261240" class="header__phone_link h4">+7 (915) 626-12-40</a>
+					</div>
+					<button data-modal="call" class="header__btn button_border">Заказать звонок</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<nav id="nav" class="nav">
+		<div class="container">
+			<div class="nav__wrapper">
+				<ul class="nav__list">
+					<li class="nav__item descr">
+						<a class="nav__link" href="/">Главная</a>
+					</li>
+					<li class="nav__item descr">
+						<a class="nav__link" href="#servises">Услуги</a>
+					</li>
+					<li class="nav__item descr">
+						<a class="nav__link" href="#works">Наши работы</a>
+					</li>
+					<li class="nav__item descr">
+						<a class="nav__link" href="#reviews">Отзывы</a>
+					</li>
+					<li class="nav__item descr">
+						<a class="nav__link" href="#sale">Акции</a>
+					</li>
+					<li class="nav__item descr">
+						<a class="nav__link" href="#about">О компании</a>
+					</li>
+					<li class="nav__item descr">
+						<a class="nav__link" href="#contacts">Контакты</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<section id="main" class="promo">
+		<div class="container">
+			<div class="promo__wrapper">
+				<div class="promo__slide">
+					<div class="promo__bgimg">
+						<img src="img/main/slide-1.jpg" alt="img-1">
+					</div>
+					<div class="promo__text">
+						<div class="promo__subtitle">Качественные</div>
+						<h1 class="h1">Пластиковые окна для вашего дома<br>в Рязани</h1>
+						<div class="promo__descr descr">Выбор профессионалов в установке окон!</div>
+						<a href="#froze" class="promo__btn button">Бесплатный замер</a>
+					</div>
+					<div class="promo__icontext">
+						<div class="promo__icontext_item">
+							<img src="icons/main/garanty.svg" alt="garanty">
+							<div class="promo__icontext_descr descr"><span>5 лет</span><br>гарантия</div>
+						</div>
+						<div class="promo__icontext_item">
+							<img src="icons/main/revies.svg" alt="garanty">
+							<div class="promo__icontext_descr descr"><span>100+</span><br>отзывов</div>
+						</div>
+						<div class="promo__icontext_item">
+							<img src="icons/main/percent.svg" alt="garanty">
+							<div class="promo__icontext_descr descr"><span>0%</span><br>рассрочка</div>
+						</div>
+					</div>
+				</div>
+				<div class="promo__slide">
+					<div class="promo__bgimg">
+						<img src="img/main/slide-2.jpg" alt="img-1">
+					</div>
+					<div class="promo__text">
+						<div class="promo__subtitle">Надежность</div>
+						<h1 class="h1">Превосходство<br>и безопасность для вашего дома</h1>
+						<div class="promo__descr descr">Качественные пластиковые окна REHAU в Рязани!</div>
+						<a href="#froze" class="promo__btn button">Бесплатный замер</a>
+					</div>
+					<div class="promo__icontext">
+						<div class="promo__icontext_item">
+							<img src="icons/main/garanty.svg" alt="garanty">
+							<div class="promo__icontext_descr descr"><span>5 лет</span><br>гарантия</div>
+						</div>
+						<div class="promo__icontext_item">
+							<img src="icons/main/revies.svg" alt="garanty">
+							<div class="promo__icontext_descr descr"><span>100+</span><br>отзывов</div>
+						</div>
+						<div class="promo__icontext_item">
+							<img src="icons/main/percent.svg" alt="garanty">
+							<div class="promo__icontext_descr descr"><span>0%</span><br>рассрочка</div>
+						</div>
+					</div>
+				</div>
+				<div class="promo__slide">
+					<div class="promo__bgimg">
+						<img src="img/main/slide-3.jpg" alt="img-1">
+					</div>
+					<div class="promo__text">
+						<div class="promo__subtitle">Профессиональная</div>
+						<h1 class="h1">установка окон REHAU в Рязани</h1>
+						<div class="promo__descr descr">Выбор профессионалов в установке окон!</div>
+						<a href="#froze" class="promo__btn button">Бесплатный замер</a>
+					</div>
+					<div class="promo__icontext">
+						<div class="promo__icontext_item">
+							<img src="icons/main/garanty.svg" alt="garanty">
+							<div class="promo__icontext_descr descr"><span>5 лет</span><br>гарантия</div>
+						</div>
+						<div class="promo__icontext_item">
+							<img src="icons/main/revies.svg" alt="garanty">
+							<div class="promo__icontext_descr descr"><span>100+</span><br>отзывов</div>
+						</div>
+						<div class="promo__icontext_item">
+							<img src="icons/main/percent.svg" alt="garanty">
+							<div class="promo__icontext_descr descr"><span>0%</span><br>рассрочка</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<section class="application">
+		<div class="container">
+			<div class="application__wrapper">
+				<h3 class="h3">Заключайте договор в день замера и получайте скидку 5%</h3>
+				<form action="#" class="appl-form">
+					<input name="name" placeholder="Имя" type="text">
+					<input name="phone" placeholder="Телефон">
+					<button class="appl-form__btn button">Вызвать замерщика</button>
+				</form>
+				<div class="appl-form__privacy fz13-light">Нажимая кнопку "Вызвать замерщика", я соглашаюсь с <a
+						href="./privacy.html" target="_blank">политикой
+						конфиденциальности</a></div>
+			</div>
+		</div>
+	</section>
+	<section class="garanty">
+		<div class="container">
+			<h2 class="h2">Мы гарантируем</h2>
+			<div class="garanty__wrapper">
+				<div class="garanty__item">
+					<div class="garanty__title">
+						<div class="garanty__icon"><img src="icons/garanty/dogovor.svg" alt="icon-1"></div>
+						<h3 class="h3">Работаем<br>по договору</h3>
+					</div>
+					<p class="descr">Мы гарантируем качество наших работ и надлежащее выполнение взятых на себя обязательств
+						официальным
+						договором</p>
+				</div>
+				<div class="garanty__item">
+					<div class="garanty__title">
+						<div class="garanty__icon"><img src="icons/garanty/price.svg" alt="icon-1"></div>
+						<h3 class="h3">Не поднимаем
+							стоимость</h3>
+					</div>
+					<p class="descr">Мы не потребуем у вас доплаты в процессе работы или после</p>
+				</div>
+				<div class="garanty__item">
+					<div class="garanty__title">
+						<div class="garanty__icon"><img src="icons/garanty/materials.svg" alt="icon-1"></div>
+						<h3 class="h3">Качественные
+							материалы</h3>
+					</div>
+					<p class="descr">«Окна Рехау» официальный партнер REHAU и использует только сертифицированные материалы
+					</p>
+				</div>
+				<div class="garanty__item">
+					<div class="garanty__title">
+						<div class="garanty__icon"><img src="icons/garanty/sotrudnik.svg" alt="icon-1"></div>
+						<h3 class="h3">Опытных
+							специалистов</h3>
+					</div>
+					<p class="descr">Наша сотрудники прошли сертификацию и имеют большой опыт работы</p>
+				</div>
+				<div class="garanty__item">
+					<div class="garanty__title">
+						<div class="garanty__icon"><img src="icons/garanty/zvuk.svg" alt="icon-1"></div>
+						<h3 class="h3">Высокую
+							шумоизоляцию</h3>
+					</div>
+					<p class="descr">При подборе стеклопакета учитываем условия проживания: наличие автодорог, детских
+						площадок, строительных объектов</p>
+				</div>
+				<div class="garanty__item">
+					<div class="garanty__title">
+						<div class="garanty__icon"><img src="icons/garanty/udobstvo.svg" alt="icon-1"></div>
+						<h3 class="h3">Удобство в
+							эксплуатации</h3>
+					</div>
+					<p class="descr">Менеджер порекомендует удобные варианты с учетом потребностей клиента и условий
+						установки окна</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="servises" class="servises">
+		<div class="container">
+			<h2 class="h2">Наши услуги</h2>
+			<div class="servises__wrapper">
+				<div style="background-image: url(./img/servises/windows.jpg);" class="servises__item">
+					<h3 class="h3">Установка пластиковых окон</h3>
+					<ul class="servises__list">
+						<li class="servises__text descr">Установка современных пластиковых окон по ГОСТу</li>
+						<li class="servises__text descr">Гарантия от 5 лет</li>
+						<li class="servises__text descr">Качественная фурнитура в комплекте</li>
+						<li class="servises__text descr">Бесплатный замер</li>
+					</ul>
+					<div class="servises__price-block">
+						<div class="servises__price h3">от 10 000₽</div>
+						<button data-modal="order" class="servises__btn button_nofill descr">Заказать</button>
+					</div>
+				</div>
+				<div style="background-image: url(img/servises/windows-balcony.jpg);" class="servises__item">
+					<h3 class="h3">Остекление балконов</h3>
+					<ul class="servises__list">
+						<li class="servises__text descr">Установка профильных систем для остекления.</li>
+						<li class="servises__text descr">Установка стеклопакетов</li>
+						<li class="servises__text descr">Установка двери или окна</li>
+						<li class="servises__text descr">Установка прокладок и герметизация соединений</li>
+					</ul>
+					<div class="servises__price-block">
+						<div class="servises__price h3">от 25 000₽</div>
+						<button data-modal="order" class="servises__btn button_nofill descr">Заказать</button>
+					</div>
+				</div>
+				<div style="background-image: url(img/servises/otdelka-balcony.jpg);" class="servises__item">
+					<h3 class="h3">Отделка балконов</h3>
+					<ul class="servises__list">
+						<li class="servises__text descr">Укладка покрытия пола</li>
+						<li class="servises__text descr">Облицовка стен</li>
+						<li class="servises__text descr">Установка потолка</li>
+						<li class="servises__text descr">Установка декоративных элементов, таких как плинтусы, наличники,
+							молдинги</li>
+					</ul>
+					<div class="servises__price-block">
+						<div class="servises__price h3">от 35 000₽</div>
+						<button data-modal="order" class="servises__btn button_nofill descr">Заказать</button>
+					</div>
+				</div>
+				<div style="background-image: url(img/servises/dachi.jpg);" class="servises__item">
+					<h3 class="h3">Остекление дач<br>и коттеджей</h3>
+					<ul class="servises__list">
+						<li class="servises__text descr">Установка оконных рам</li>
+						<li class="servises__text descr"> Вставка стеклопакетов в оконные рамы</li>
+						<li class="servises__text descr">Установка оконной фурнитуры</li>
+						<li class="servises__text descr">Установка оконных откосов</li>
+					</ul>
+					<div class="servises__price-block">
+						<div class="servises__price h3">от 15 000₽</div>
+						<button data-modal="order" class="servises__btn button_nofill descr">Заказать</button>
+					</div>
+				</div>
+				<div style="background-image: url(img/servises/glass.jpg);" class="servises__item">
+					<h3 class="h3">Замена стеклопакета</h3>
+					<ul class="servises__list">
+						<li class="servises__text descr">Демонтаж старого стеклопакета</li>
+						<li class="servises__text descr">Очистка оконной рамы</li>
+						<li class="servises__text descr">Вставка нового стеклопакета в оконную раму</li>
+					</ul>
+				</div>
+				<div style="background-image: url(img/servises/uplotn.jpg);" class="servises__item">
+					<h3 class="h3">Замена уплонителя</h3>
+					<ul class="servises__list">
+						<li class="servises__text descr">Улучшение теплоизоляции</li>
+						<li class="servises__text descr">Защита от сквозняков и влаги</li>
+						<li class="servises__text descr">Уменьшение шума</li>
+					</ul>
+				</div>
+				<div style="background-image: url(img/servises/setka.jpg);" class="servises__item">
+					<h3 class="h3">Установка маскитной сетки</h3>
+					<ul class="servises__list">
+						<li class="servises__text descr">– Назойливые насекомые</li>
+						<li class="servises__text descr">– Пыль с улицы</li>
+						<li class="servises__text descr">– Тополиный пух </li>
+					</ul>
+				</div>
+				<div style="background-image: url(img/servises/furniture.jpg);" class="servises__item">
+					<h3 class="h3">Замена и ремонт фурнитуры</h3>
+					<ul class="servises__list">
+						<li class="servises__text descr">Улучшение функциональности</li>
+						<li class="servises__text descr">Повышение уровня безопасности</li>
+						<li class="servises__text descr">Долговечность</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="stage">
+		<div class="container">
+			<h2 class="h2">Этапы работы</h2>
+			<div class="stage__wrapper">
+				<div class="stage__item">
+					<div class="stage__subtitlte descr">шаг 1</div>
+					<h3 class="h3">Заявка</h3>
+					<p class="descr">Оставляете заявку на сайте, по телефону или мессенджере, после чего к вам направляют
+						замерщика</p>
+					<img src="img/stagework/massage.png" alt="message" class="stage__img">
+				</div>
+				<div class="stage__item">
+					<div class="stage__subtitlte descr">шаг 2</div>
+					<h3 class="h3">Бесплатный замер</h3>
+					<p class="descr">Замерщик определит объем работ, поможет с выбором и ответит на все вопросы, а так же
+						рассчитает итоговую стоимость</p>
+					<img src="img/stagework/ruletka.png" alt="ruletka" class="stage__imgtop">
+				</div>
+				<div class="stage__item">
+					<div class="stage__subtitlte descr">шаг 3</div>
+					<h3 class="h3">Изготовление</h3>
+					<p class="descr">За счет собственного производства мы изготавливаем конструкции любой сложности и размера
+						всего за 5 дней</p>
+					<img src="img/stagework/profile.png" alt="profile" class="stage__img-profile">
+				</div>
+				<div class="stage__item">
+					<div class="stage__subtitlte descr">шаг 4</div>
+					<h3 class="h3">Доставка и монтаж</h3>
+					<p class="descr">Доставка и установка входят в стоимость и производятся за 1 день. Наша команда работает
+						качественно и без грязи</p>
+					<img src="img/stagework/delivery.png" alt="delivery" class="stage__imgtop-delivery">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="application">
+		<div class="container">
+			<div class="application__wrapper">
+				<h2 class="h2">Бесплатная консультация</h2>
+				<div class="application__descr descr">Оставьте свой номер телефона, и мы вам перезвоним</div>
+				<form action="#" class="appl-form">
+					<input name="name" placeholder="Имя" type="text">
+					<input name="phone" placeholder="Телефон">
+					<button class="appl-form__btn button">Вызвать замерщика</button>
+				</form>
+				<div class="appl-form__privacy fz13-light">Нажимая кнопку "Вызвать замерщика", я соглашаюсь с <a
+						href="./privacy.html" target="_blank">политикой
+						конфиденциальности</a></div>
+			</div>
+		</div>
+	</section>
+	<section id="works" class="works">
+		<div class="container">
+			<h2 class="h2">Примеры наших работ</h2>
+
+			<div class="works__wrapper">
+				<div class="works__item">
+					<div class="works__img"><img src="img/works/work-1.jpg" alt="photo-1"></div>
+					<div class="works__blocktext">
+						<div class="works__text">
+							<div class="works__subtitle descr">Заказчик:</div>
+							<div class="works__title h3">Константин Иванович Л.</div>
+						</div>
+						<div class="works__text">
+							<div class="works__subtitle descr">Тип работ:</div>
+							<div class="works__title h3">Монтаж оконных конструкций в частном доме</div>
+						</div>
+						<div class="works__text">
+							<div class="works__subtitle descr">Срок:</div>
+							<div class="works__title h3">7 дней</div>
+						</div>
+					</div>
+				</div>
+				<div class="works__item">
+					<div class="works__img"><img src="img/works/work-1.jpg" alt="photo-1"></div>
+					<div class="works__blocktext">
+						<div class="works__text">
+							<div class="works__subtitle descr">Заказчик:</div>
+							<div class="works__title h3">Константин Иванович Л.</div>
+						</div>
+						<div class="works__text">
+							<div class="works__subtitle descr">Тип работ:</div>
+							<div class="works__title h3">Монтаж оконных конструкций в частном доме</div>
+						</div>
+						<div class="works__text">
+							<div class="works__subtitle descr">Срок:</div>
+							<div class="works__title h3">7 дней</div>
+						</div>
+					</div>
+				</div>
+				<div class="works__item">
+					<div class="works__img"><img src="img/works/work-1.jpg" alt="photo-1"></div>
+					<div class="works__blocktext">
+						<div class="works__text">
+							<div class="works__subtitle descr">Заказчик:</div>
+							<div class="works__title h3">Константин Иванович Л.</div>
+						</div>
+						<div class="works__text">
+							<div class="works__subtitle descr">Тип работ:</div>
+							<div class="works__title h3">Монтаж оконных конструкций в частном доме</div>
+						</div>
+						<div class="works__text">
+							<div class="works__subtitle descr">Срок:</div>
+							<div class="works__title h3">7 дней</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<section id="reviews" class="reviews">
+		<div class="container">
+			<h2 class="h2">Отзывы о нашей компании</h2>
+			<div class="reviews__links">
+				<div class="reviews__link reviews__all descr">Все отзывы</div>
+				<a href="https://yandex.ru/maps/org/okna_rekhau/37870196646/reviews/?ll=39.724210%2C54.604662&mode=search&sctx=ZAAAAAgBEAAaKAoSCRegbTXr5ENAEeVeYFYoTktAEhIJfEYiNIKNzz8RvqCFBIwusz8iBgABAgMEBSgKOABAC0gBYityZWFycj1zY2hlbWVfTG9jYWwvR2VvL0VuYWJsZUJlYXV0eUZpbHRlcj0xagJydZ0BzcxMPaABAKgBAL0BaqiiccIBBqav9YmNAeoBAPIBAPgBAIICHNCe0LrQvdCwLdC%2F0YDQviDRgNGP0LfQsNC90YyKAgCSAgIxMZoCDGRlc2t0b3AtbWFwcw%3D%3D&sll=39.724210%2C54.604662&sspn=0.018093%2C0.004340&tab=reviews&text=%D0%9E%D0%BA%D0%BD%D0%B0-%D0%BF%D1%80%D0%BE%20%D1%80%D1%8F%D0%B7%D0%B0%D0%BD%D1%8C&z=17"
+					target="_blank" class="reviews__link h4">
+					<img src="icons/reviews/map.svg" alt="yandexmap">
+
+					Яндекс.Карты<span>5.0</span>
+				</a>
+				<a href="https://www.avito.ru/user/1ac78853e3105492cfd56bfe4f21ed5f/profile?src=sharing" target="_blank"
+					class="reviews__link h4">
+					<img src="icons/reviews/avito.svg" alt="avito">
+					Авито<span>4.9</span>
+				</a>
+			</div>
+			<div class="reviews__wrapper">
+				<div class="reviews__item">
+					<div class="reviews__neme-block">
+						<div class="reviews__icon">В</div>
+						<img src="icons/reviews/stars.svg" alt="stars">
+						<h4 class="reviews__name h4">Вячеслав Сабенин</h4>
+						<div class="reviews__date">26 февраля 2023г.</div>
+					</div>
+					<div class="reviews__txt descr">
+						<p>
+							Отличная компания, все сделали грамотно. Хороший, квалификацированный и понимающий персонал.
+							Отличное качество окон, в квартире стало тепло и тихо. Спасибо большое за работу!!!
+						</p>
+					</div>
+					<div class="reviews__watch-link fz13-light">
+						<a href="https://yandex.ru/web-maps/org/37870196646/reviews?reviews[publicId]=kmkwmkd5xcmzx0f63rmvr125yw&utm_source=review"
+							target="_blank">Смотреть
+							отзыв</a>
+					</div>
+				</div>
+				<div class="reviews__item">
+					<div class="reviews__neme-block">
+						<div class="reviews__icon">И</div>
+						<img src="icons/reviews/stars.svg" alt="stars">
+						<h4 class="reviews__name h4">Ирина Воробьева</h4>
+						<div class="reviews__date">5 февраля 2023г.</div>
+					</div>
+					<div class="reviews__txt descr">
+						<p>
+							Очень хорошая бригада . рекомендую их к заказу окошек, все четко ! Замерят , привезут,
+							установят.будем обращаться в дальнейшем , обязательно!спасибо вам ! Рекомендую продавца на все 100%
+						</p>
+					</div>
+					<div class="reviews__watch-link fz13-light">
+						<a href="https://yandex.ru/web-maps/org/37870196646/reviews?reviews[publicId]=7ufcdfn5ydfgnrk5gtp6xjqk4r&utm_source=review"
+							target="_blank">Смотреть
+							отзыв</a>
+					</div>
+				</div>
+				<div class="reviews__item">
+					<div class="reviews__neme-block">
+						<div class="reviews__icon">С</div>
+						<img src="icons/reviews/stars.svg" alt="stars">
+						<h4 class="reviews__name h4">Сергей Ф.</h4>
+						<div class="reviews__date">6 сентября 2022г.</div>
+					</div>
+					<div class="reviews__txt descr">
+						<p>
+							Очень хорошая компания. Менеджер Дмитрий грамотный специалист,хороший психолог и человек. Быстрое и
+							качественное изготовление окон и сеток. Квалифицированный ремонт оконной фурнитуры по приемлемой
+							цене. Рекомендую данную компанию
+						</p>
+					</div>
+					<div class="reviews__watch-link fz13-light">
+						<a href="https://yandex.ru/web-maps/org/37870196646/reviews?reviews[publicId]=fgkn2wwk1uh2dm8932jn3gx6t0&utm_source=review"
+							target="_blank">Смотреть
+							отзыв</a>
+					</div>
+				</div>
+				<div class="reviews__item">
+					<div class="reviews__neme-block">
+						<div class="reviews__icon">Т</div>
+						<img src="icons/reviews/stars.svg" alt="stars">
+						<h4 class="reviews__name h4">Татьяна К.</h4>
+						<div class="reviews__date">22 февраля 2023г.</div>
+					</div>
+					<div class="reviews__txt descr">
+						<p>
+							С компанией было приятно работать. Дмитрий и его команда внимательные и грамотные мастера. Желаю им
+							всего самого хорошего. Рекомендую Окна Про.
+						</p>
+					</div>
+					<div class="reviews__watch-link fz13-light">
+						<a href="https://yandex.ru/web-maps/org/37870196646/reviews?reviews[publicId]=gq0ne3q13419thpgqe878dd5jm&utm_source=review"
+							target="_blank">Смотреть
+							отзыв</a>
+					</div>
+				</div>
+				<div class="reviews__item">
+					<div class="reviews__neme-block">
+						<div class="reviews__icon">С</div>
+						<img src="icons/reviews/stars.svg" alt="stars">
+						<h4 class="reviews__name h4">Светлана К.</h4>
+						<div class="reviews__date">12 марта 2023г.</div>
+					</div>
+					<div class="reviews__txt descr">
+						<p>
+							Очень всё понравилось. Качественно и быстро. Всем буду советовать. Менеджер Дмитрий просто
+							профессиональный и очень порядочный человек.
+						</p>
+					</div>
+					<div class="reviews__watch-link fz13-light">
+						<a href="https://yandex.ru/web-maps/org/37870196646/reviews?reviews[publicId]=twu4un8tn84dgx753b2z6hvep0&utm_source=review"
+							target="_blank">Смотреть
+							отзыв</a>
+					</div>
+				</div>
+				<div class="reviews__item">
+					<div class="reviews__neme-block">
+						<div class="reviews__icon">Б</div>
+						<img src="icons/reviews/stars.svg" alt="stars">
+						<h4 class="reviews__name h4">Борис</h4>
+						<div class="reviews__date">15 сентября 2022г.</div>
+					</div>
+					<div class="reviews__txt descr">
+						<p>
+							Очень хорошая компания! Заказал окна. Заказ сделан вовремя! Большое спасибо менеджеру Дмитрию!
+							Предложил корректировать размеры окон, благодаря чему, получились очень эффектно! Рекомендую всем!
+							Спасибо ещё раз Дмитрий!
+						</p>
+					</div>
+					<div class="reviews__watch-link fz13-light">
+						<a href="https://yandex.ru/web-maps/org/37870196646/reviews?reviews[publicId]=k439d21femh4u1t65z97vj297r&utm_source=review"
+							target="_blank">Смотреть
+							отзыв</a>
+					</div>
+				</div>
+				<div class="reviews__item">
+					<div class="reviews__neme-block">
+						<div class="reviews__icon">Н</div>
+						<img src="icons/reviews/stars.svg" alt="stars">
+						<h4 class="reviews__name h4">Наталья</h4>
+						<div class="reviews__date">6 сентября 2022г.</div>
+					</div>
+					<div class="reviews__txt descr">
+						<p>
+							Отличная компания! Мы столкнулись в офисе с такой проблемой. Несколько организаций, осмотрев наши
+							окна сказали, что нам нельзя установить москитные сети, т.к. установлены решетки. И когда мы уже
+							практически отчаялись в борьбе с различными насекомыми, позвонили в Окна-Про и к нам на помощь
+							пришел Дмитрий! Итог: москитные сетки установлены и поменяна сломанная ручка бесплатно, в качестве
+							бонуса.
+						</p>
+					</div>
+					<div class="reviews__watch-link fz13-light">
+						<a href="https://yandex.ru/web-maps/org/37870196646/reviews?reviews[publicId]=247g82n84mnwdxp0zquyqmpy04&utm_source=review"
+							target="_blank">Смотреть
+							отзыв</a>
+					</div>
+				</div>
+				<div class="reviews__item">
+					<div class="reviews__neme-block">
+						<div class="reviews__icon">И</div>
+						<img src="icons/reviews/stars.svg" alt="stars">
+						<h4 class="reviews__name h4">Инесса Р.</h4>
+						<div class="reviews__date">20 октября 2022г.</div>
+					</div>
+					<div class="reviews__txt descr">
+						<p>
+							Я рада, что обратилась именно сюда. Оперативно приняли заявку, быстро и качественно сделали ремонт
+							балконной двери. Приятно было с вами общаться. Большое спасибо.
+						</p>
+					</div>
+					<div class="reviews__watch-link fz13-light">
+						<a href="https://yandex.ru/web-maps/org/37870196646/reviews?reviews[publicId]=98gpnz5mxgj3jwacbcv77hk9z0&utm_source=review"
+							target="_blank">Смотреть
+							отзыв</a>
+					</div>
+				</div>
+				<div class="reviews__item">
+					<div class="reviews__neme-block">
+						<div class="reviews__icon">А</div>
+						<img src="icons/reviews/stars.svg" alt="stars">
+						<h4 class="reviews__name h4">Анастасия</h4>
+						<div class="reviews__date">3 августа 2022г.</div>
+					</div>
+					<div class="reviews__txt descr">
+						<p>
+							До нового года ребята устанавливали новый подоконник и откосы. Так как ремонт в кухне, где стоит
+							окно, только начинался, сейчас, в августе, он подходит к концу. Недавно позвонила Дмитрию,
+							попросила поставить уголки. Поставили в тот же день, когда звонила. Все быстро, четко и ни рубля
+							лишних. С оконной компанией я определилась еще тогда, в декабре, и, если что-то случится, позвоню
+							именно сюда!
+						</p>
+					</div>
+					<div class="reviews__watch-link fz13-light">
+						<a href="https://yandex.ru/web-maps/org/37870196646/reviews?reviews[publicId]=9w7qjtx476zpwaz50r5qd3x21r&utm_source=review"
+							target="_blank">Смотреть
+							отзыв</a>
+					</div>
+				</div>
+				<div class="reviews__item">
+					<div class="reviews__neme-block">
+						<div class="reviews__icon">И</div>
+						<img src="icons/reviews/stars.svg" alt="stars">
+						<h4 class="reviews__name h4">Иван Димитров</h4>
+						<div class="reviews__date">11 апреля 2023г.</div>
+					</div>
+					<div class="reviews__txt descr">
+						<p>
+							Благодарю от всей души
+							Заказ и установка москитных сеток за один день.Сервис и качество на высоте,теперь только к этим
+							ребятам.Рекомендую
+						</p>
+					</div>
+					<div class="reviews__watch-link fz13-light">
+						<a href="https://yandex.ru/web-maps/org/37870196646/reviews?reviews[publicId]=nzt8x6zp8f3y3x04dj5fnebeq4&utm_source=review"
+							target="_blank">Смотреть
+							отзыв</a>
+					</div>
+				</div>
+				<div class="reviews__item">
+					<div class="reviews__neme-block">
+						<div class="reviews__icon">А</div>
+						<img src="icons/reviews/stars.svg" alt="stars">
+						<h4 class="reviews__name h4">Анюта К.</h4>
+						<div class="reviews__date">9 сентября 2022г.</div>
+					</div>
+					<div class="reviews__txt descr">
+						<p>
+							Нашла эту компанию через Яндекс, так как нахожусь в другом регионе все вопросы решали по
+							теоефону.Ну просто умнички,работать хотят, заинтересованы.Поменяли мне в квартире разбитое стекло в
+							окошке,грамотно всё подобрали,быстро приехали-на следующий день, я осталась очень довольна.
+						</p>
+					</div>
+					<div class="reviews__watch-link fz13-light">
+						<a href="https://yandex.ru/web-maps/org/37870196646/reviews?reviews[publicId]=7c2gudqh203krwbbzfmk26kvmw&utm_source=review"
+							target="_blank">Смотреть
+							отзыв</a>
+					</div>
+				</div>
+				<div class="reviews__item">
+					<div class="reviews__neme-block">
+						<div class="reviews__icon">М</div>
+						<img src="icons/reviews/stars.svg" alt="stars">
+						<h4 class="reviews__name h4">Марина Т.</h4>
+						<div class="reviews__date">6 июля 2022г.</div>
+					</div>
+					<div class="reviews__txt descr">
+						<p>
+							Ребята установили москитные сетки в труднодоступных местах (перед окнами были метал.решетки).
+							Спасибо, что не "плюнули" и ушли, а справились с задачей! Быстро договорились о встрече и выполнили
+							все хорошо.
+						</p>
+					</div>
+					<div class="reviews__watch-link fz13-light">
+						<a href="https://yandex.ru/web-maps/org/37870196646/reviews?reviews[publicId]=c9u50wbt7ebw3tn4rp6jc4tyyg&utm_source=review"
+							target="_blank">Смотреть
+							отзыв</a>
+					</div>
+				</div>
+			</div>
+	</section>
+	<section class="partners">
+		<div class="container">
+			<h2 class="h2">Наши партнеры</h2>
+			<div class="partners__wrapper">
+				<div class="partners__item">
+					<img src="icons/partners/siegenia.svg" alt="partner-logo">
+				</div>
+				<div class="partners__item">
+					<img src="icons/partners/rehau.svg" alt="partner-logo">
+				</div>
+				<div class="partners__item">
+					<img src="icons/partners/moller.png" alt="partner-logo">
+				</div>
+				<div class="partners__item">
+					<img src="icons/partners/Roto.png" alt="partner-logo">
+				</div>
+				<div class="partners__item">
+					<img src="icons/partners/danke.svg" alt="partner-logo">
+				</div>
+				<div class="partners__item">
+					<img src="icons/partners/provedal.svg" alt="partner-logo">
+				</div>
+				<div class="partners__item">
+					<img src="icons/partners/schtandart.png" alt="partner-logo">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="heat">
+		<div class="container">
+			<div class="heat__wrapper">
+				<h2 class="h2">Больше тепла в вашем доме!</h2>
+				<div class="heat__descr descr">Уникальная технология Теплопакета сохраняет до 52% больше тепла. </div>
+				<button data-modal="order" class="heat__btn button">Рассчитать теплопакет</button>
+				<div class="heat__img">
+					<img src="img/heat/profile-heat.png" alt="profile-img">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="sale" class="sale">
+		<div class="container">
+			<h2 class="h2">Акции и скидки</h2>
+			<div class="sale__wrapper">
+				<div class="sale__item">
+					<h3 class="h3">Скидка 15%<br>на продукцию Рехау</h3>
+					<div class="sale__descr descr">Скидка предоставляется...</div>
+					<button class="sale__btn button_nofill descr">Оставить заявку</button>
+					<div class="sale__img">
+						<img src="img/sale/rehau.jpg" alt="rehau">
+					</div>
+				</div>
+				<div class="sale__item">
+					<h3 class="h3">Скидка 10%<br>На остекление дач</h3>
+					<div class="sale__descr descr">Скидка предоставляется...</div>
+					<button class="sale__btn button_nofill descr">Оставить заявку</button>
+					<div class="sale__img">
+						<img src="img/sale/sale-dachi.jpg" alt="rehau">
+					</div>
+				</div>
+				<div class="sale__item">
+					<h3 class="h3">Скидка 10%<br>Пенсионерам</h3>
+					<div class="sale__descr descr">Скидка предоставляется...</div>
+					<button class="sale__btn button_nofill descr">Оставить заявку</button>
+					<div class="sale__img">
+						<img src="img/sale/sale-grand.jpg" alt="rehau">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="zero">
+		<div class="container">
+			<div class="zero__wrapper">
+				<h2 class="h2">Рассрочка до 5 месяцев</h2>
+				<div class="zero__descr descr">Без участия банков</div>
+				<button data-modal="order" class="zero__btn button">Узнать подробнее</button>
+				<img src="img/nopercent/zero.svg" alt="imgzero" class="zero__img">
+			</div>
+		</div>
+	</section>
+	<section class="pay">
+		<div class="container">
+			<h2 class="h2">Варианты оплаты</h2>
+			<div class="pay__wrapper">
+				<div class="pay__item">
+					<h3 class="h3">Наличный расчет</h3>
+					<div class="pay__img">
+						<img src="icons/oplata/Wallet.png" alt="pay-img">
+					</div>
+				</div>
+				<div class="pay__item">
+					<h3 class="h3">Безналичный расчет</h3>
+					<div class="pay__img">
+						<img src="icons/oplata/Bank.png" alt="pay-img">
+					</div>
+				</div>
+				<div class="pay__item">
+					<h3 class="h3">Банковской картой</h3>
+					<div class="pay__img">
+						<img src="icons/oplata/Credit-Card.png" alt="pay-img">
+					</div>
+				</div>
+				<div class="pay__item">
+					<h3 class="h3">Беспроцентная рассрочка</h3>
+					<div class="pay__img">
+						<img src="icons/oplata/Percentzero.png" alt="pay-img">
+					</div>
+				</div>
+			</div>
+			<p class="pay__text descr">Компания «Окна Рехау» принимает оплату наличными и по безналичному расчету. После
+				заключения договора мы выставим счет для оплаты любым вам способом. Заказ можно оплатить в рассрочку или
+				оформить в кредит с гибкой системой выплат.</p>
+		</div>
+	</section>
+	<section id="froze" class="froze">
+		<div class="container">
+			<div class="froze__wrapper">
+				<div class="froze__text">
+					<h2 class="h2">Оставьте заявку<br>на бесплатный замер</h2>
+					<div class="froze__what">
+						<h3 class="h3">Что будет на замере?</h3>
+						<ul class="froze__list">
+							<li class="froze__descr descr">Объяснит, чем может отличаться дешевое окно от других предложений на
+								рынке
+							</li>
+							<li class="froze__descr descr">Расскажет обо всех возомжных вариантах остекления вашего дома
+								учитывая
+								особенности строения</li>
+							<li class="froze__descr descr">Обсудит с Вами все интересующие детали остекления</li>
+							<li class="froze__descr descr">Зададите все волнующие вас вопросы</li>
+						</ul>
+					</div>
+				</div>
+				<div class="froze__form">
+					<form action="" class="form-froze">
+						<input name="name" placeholder="Имя" type="text">
+						<input name="phone" placeholder="Телефон">
+						<textarea name="message" placeholder="Ваше сообщение"></textarea>
+						<button class="form-froze__btn button">Отправить заявку</button>
+						<div class="form-froze__privacy fz13-light">Нажимая кнопку "Вызвать замерщика", я соглашаюсь<br> с <a
+								href="./privacy.html" target="_blank">политикой
+								конфиденциальности</a></div>
+					</form>
+				</div>
+
+
+			</div>
+		</div>
+	</section>
+	<section id="about" class="about">
+		<div class="container">
+			<h2 class="h2">О компании</h2>
+			<div class="about__wrapper">
+				<div class="about__images">
+					<div class="about__img-1">
+						<img src="img/company/logo-office.jpg" alt="company-img">
+					</div>
+					<div class="about__img-2">
+						<img src="img/company/rejim-work.jpg" alt="company-img">
+					</div>
+					<div class="about__img-3">
+						<img src="img/company/company.jpg" alt="company-img">
+					</div>
+				</div>
+				<div class="about__text">
+					<div class="about__title">
+						<h3 class="h3">
+							Ищете надежную компанию для покупки и установки пластиковых окон в Рязани и Рязанской области?
+						</h3>
+						<p class="descr">
+							Мы готовы предложить вам высококачественные окна REHAU, доступную рассрочку и отличный сервис,
+							чтобы сделать ваш дом еще комфортнее и энергоэффективнее.
+						</p>
+					</div>
+					<p class="descr">
+						"Окна Рехау" - это компания, специализирующаяся на продаже и установке пластиковых окон в Рязани и
+						Рязанской области. Мы гордимся тем, что предлагаем высококачественные оконные системы из профилей
+						REHAU, одного из ведущих производителей в отрасли. На протяжении многих лет мы занимаемся установкой
+						окон и созданием комфортных и энергоэффективных жилых пространств для наших клиентов.
+						<br><br>
+						Мы понимаем, что покупка и установка окон - это серьезное решение, поэтому мы предлагаем 0% рассрочку,
+						чтобы сделать этот процесс более доступным и удобным для наших клиентов. Мы стремимся предоставить
+						нашим клиентам высокое качество окон и профессиональный уровень обслуживания, чтобы каждый из наших
+						клиентов остался доволен результатом.
+						<br><br>
+						Мы гордимся более чем 100 положительными отзывами наших довольных клиентов. Это для нас подтверждение
+						качества нашей работы и нашей приверженности к удовлетворению потребностей клиентов. Мы ценим каждого
+						клиента и стремимся превзойти их ожидания, предлагая надежные и стильные окна, а также
+						профессиональную установку.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="question">
+		<div class="container">
+			<div class="question__wrapper">
+				<h2 class="h2">Остались вопросы?</h2>
+				<div class="question__descr descr">Напишите нам в WhatsApp и менеджер ответит вам в течении минуты!</div>
+				<a href="https://wa.me/79156261240" target="_blank" class="question__btn button">Написать в WhatsApp</a>
+				<a href="tel:79995956644" class="question__btn button_border">Позвонить</a>
+				<img src="img/quastions/PHONE.png" alt="imgzero" class="question__img">
+			</div>
+		</div>
+	</section>
+	<section id="contacts" class="contacts">
+		<div class="container">
+			<h2 class="h2">Контакты</h2>
+			<div class="contacts__wrapper">
+				<div class="contacts__info">
+					<div class="contacts__info-item">
+						<div class="descr">Телефон</div>
+						<h4 class="h4">+7 (915) 626-12-40</h4>
+					</div>
+					<div class="contacts__info-item">
+						<div class="descr">E-mail</div>
+						<h4 class="h4">okna-rehau@gmail.com</h4>
+					</div>
+					<div class="contacts__info-item">
+						<div class="descr">Адрес</div>
+						<h4 class="h4">г. Рязань, ул. Гоголя, 16</h4>
+					</div>
+					<div class="contacts__info-item">
+						<div class="descr">График работы</div>
+						<h4 class="h4">с 9:00 до 19:00<br>без выходных</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="contacts__map" class="contacts__map"></div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__wrapper">
+				<div class="footer__logo">
+					<a href="/" class="footer__logo-img">
+						<img src="icons/logo-main-white.svg" alt="logo-white">
+					</a>
+					<div class="footer__privacy">
+						<a href="./privacy.html" target="_blank" class="fz13-light">Политика конфеденциальности</a>
+						<div class="footer__logo-copy fz13-light">&copy2023 Компания «Окна РЕХАУ»</div>
+					</div>
+				</div>
+				<div class="footer__contacts">
+					<div class="footer__contact-menu">
+						<h4 class="h4">Меню сайта</h4>
+						<ul class="footer__nav__list">
+							<li class="footer__nav__item descr"><a href="/">Главная</a></li>
+							<li class="footer__nav__item descr"><a href="#servises">Услуги</a></li>
+							<li class="footer__nav__item descr"><a href="#works">Наши работы</a></li>
+							<li class="footer__nav__item descr"><a href="#reviews">Отзывы</a></li>
+							<li class="footer__nav__item descr"><a href="#sale">Акции</a></li>
+							<li class="footer__nav__item descr"><a href="#about">О компании</a></li>
+							<li class="footer__nav__item descr"><a href="#contacts">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="footer__contact-call">
+						<h4 class="h4">Связаться с нами</h4>
+						<ul class="footer__nav__list">
+							<li class="footer__nav__item descr"><a href="tel:79156261240">+7 (915) 626-12-40</a></li>
+							<li class="footer__nav__item descr"><a href="mailto:okna@rehau-ryazan.ru"">okna@rehau-ryazan.ru</a></li>
+							<li class=" footer__nav__item descr">г. Рязань, ул. Гоголя, 16<br>этаж 4, офис 402</li>
+							<li class="footer__nav__item descr">с 9:00 до 19:00<br>без выходных</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__buttons">
+					<button data-modal="call" class="footer__button button_border descr">Заказать звонок</button>
+					<div class="footer__buttons-made fz13-light">Разработал: <a href="https://t.me/shad_ilya"
+							target="_blank">Шадрин Илья</a></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="overlay">
+		<div class="modal" id="order">
+			<div class="modal__close">
+				<img src="icons/close.svg" alt="icon-close">
+			</div>
+			<div class="modal__title h3">Оставьте заявку</div>
+			<div class="modal__descr descr">Наши менеджеры скоро свяжутся с вами!</div>
+			<form action="#" class="form-froze modal__form">
+				<input name="name" placeholder="Имя" type="text">
+				<input name="phone" placeholder="Телефон">
+				<textarea name="message" placeholder="Ваше сообщение"></textarea>
+				<button class="form-froze__btn button">Отправить заявку</button>
+				<div class="form-froze__privacy fz13-light">Нажимая кнопку "Вызвать замерщика", я соглашаюсь<br> с <a
+						href="./privacy.html" target="_blank">политикой
+						конфиденциальности</a></div>
+			</form>
+		</div>
+
+		<div class="modal" id="call">
+			<div class="modal__close">
+				<img src="icons/close.svg" alt="icon-close">
+			</div>
+			<div class="modal__title h3">Заказать звонок</div>
+			<div class="modal__descr descr">Оставьте свой номер телефона</div>
+			<form action="#" class="form-froze modal__form">
+				<input name="name" placeholder="Имя" type="text">
+				<input name="phone" placeholder="Телефон">
+				<button class="form-froze__btn button">Отправить заявку</button>
+				<div class="form-froze__privacy fz13-light">Нажимая кнопку "Вызвать замерщика", я соглашаюсь<br> с <a
+						href="./privacy.html" target="_blank">политикой
+						конфиденциальности</a></div>
+			</form>
+		</div>
+
+		<div class="modal" id="thanks">
+			<div class="modal__close">
+				<img src="icons/close.svg" alt="icon-close">
+			</div>
+			<div class="modal__title h2">Спасибо</div>
+			<div class="modal__descr h3">Заявка оптравлена!</div>
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=2f216a7e-f445-4f78-8534-d4ff89829437&lang=ru_RU"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>

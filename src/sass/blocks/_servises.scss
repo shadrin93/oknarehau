@@ -1,0 +1,42 @@
+.servises {
+	margin-top: 90px;
+	padding: 40px 0;
+	background-color: $white;
+	&__wrapper {
+		margin-top: 40px;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: minmax(390px,auto) minmax(250px,auto);
+		grid-auto-rows: minmax(250px, auto);
+		grid-gap: 10px;
+	}
+	&__item {
+		position: relative;
+		padding: 30px 35px 20px 25px;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		border-radius: 10px;
+		.h3 {
+			color: $white;
+		}
+	}
+	&__list {
+		list-style-type: none;
+		padding-left: 0;
+		margin-bottom: 0;
+		margin-top: 20px;
+	}
+	&__text {
+		color: $white;
+		margin-bottom: 10px;
+	}
+	&__price-block {
+		position: absolute;
+		bottom: 20px;
+		left: 30px;
+	}
+	&__btn {
+		margin-top: 13px;
+	}
+}

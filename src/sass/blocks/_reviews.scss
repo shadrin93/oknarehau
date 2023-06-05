@@ -1,0 +1,122 @@
+.reviews {
+	margin-top: 90px;
+	&__content {
+		padding: 0 90px;
+		padding-bottom: 45px;
+
+	}
+	&__links {
+		margin-top: 40px;
+		display: inline-flex;
+		align-items: center;
+		background-color: $white;
+		border-radius: 3px;
+		padding: 5px;
+		gap: 10px;
+	}
+	&__link {
+		display: flex;
+		align-items: center;
+		padding: 4px 15px 7px 15px;
+		background-color: $white-color;
+		border-radius: 3px;
+		height: 100%;gap: 10px;
+		transition: all .3s;
+		span {
+			margin-left: 5px;
+			font-family: 'Corsa Grotesk';
+			font-weight: 400;
+			font-size: 23px;
+			line-height: 23px;
+		}
+		&:hover {
+			outline: solid 1px $blue-color;
+		}
+	}
+	&__all {
+		background-color: $blue-color;
+		color: $white;
+		padding: 6px 15px 9px 15px;
+		&:hover {
+			outline: none;
+
+		}
+	}
+
+	&__wrapper {
+		margin-top: 40px;
+	}
+	&__item {
+		display: grid;
+		grid-template-rows: minmax(62px, 94px) auto auto;
+		// gap: 10px;
+		width: 320px;
+		height: 360px;
+		background-color: $white;
+		border-radius: 10px;
+		padding: 20px;
+		margin-right: 10px;
+	}
+	&__neme-block {
+		display: grid;
+		grid-template-columns: 60px 205px ;
+		grid-template-rows: 15px minmax(21px auto) 16px;
+		grid-auto-rows: auto;
+		column-gap: 15px;
+		row-gap: 5px;
+		align-self: start;
+	}
+	&__icon {
+		grid-column: 1/2;
+		grid-row: 1/4;
+		background-color: $white-color;
+		border-radius: 100%;
+		width: 60px;
+		height: 60px;
+		text-align: center;
+		font-family: 'Corsa Grotesk';
+		font-weight: 400;
+		font-size: 40px;
+		line-height: 48px;
+		color: $blue-color;
+	}
+	&__name {
+		grid-row: 2/3;
+		grid-column: 2/3;
+		margin: 0; /* Убираем внешний отступ */
+		-webkit-line-clamp: 2; /* Число отображаемых строк */
+		display: -webkit-box; /* Включаем флексбоксы */
+		-webkit-box-orient: vertical; /* Вертикальная ориентация */
+		overflow: hidden; /* Обрезаем всё за пределами блока */
+	}
+	&__date {
+		font-family: 'Corsa Grotesk';
+		font-weight: 250;
+		font-size: 12px;
+		line-height: 16px;
+		grid-row: 3/4;
+		grid-column: 2/3;
+		letter-spacing: 0.05em;
+	}
+
+	&__txt {
+		align-self: start;
+		max-height: 200px;
+		p {
+			margin: 0; /* Убираем внешний отступ */
+			-webkit-line-clamp: 10; /* Число отображаемых строк */
+			display: -webkit-box; /* Включаем флексбоксы */
+			-webkit-box-orient: vertical; /* Вертикальная ориентация */
+			overflow: hidden; /* Обрезаем всё за пределами блока */
+		}
+	}
+	&__watch-link {
+		align-self: end;
+		a {
+			text-decoration: underline;
+		}
+	}
+	.slick-slide {
+		display: grid;
+	}
+}

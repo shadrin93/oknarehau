@@ -1,0 +1,24 @@
+.zero {
+	margin-top: 160px;
+	&__wrapper {
+		position: relative;
+		padding: 40px 73px;
+		background-color: $blue-color;
+		border-radius: 10px;
+	}
+	.h2 {
+		color: $white;
+	}
+	&__descr {
+		margin-top: 7px;
+		color: $white;
+	}
+	&__btn {
+		margin-top: 40px;
+	}
+	&__img {
+		position: absolute;
+		bottom: 40px;
+		right: 72px;
+	}
+}

@@ -1,0 +1,50 @@
+.stage {
+	margin: 90px 0;
+	&__wrapper {
+		margin-top: 40px;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: minmax(245px, auto);
+		grid-auto-rows: minmax(245px, auto);
+		grid-gap: 10px;
+	}
+	&__item {
+		position: relative;
+		padding: 25px;
+		background-color: $white;
+		border-radius: 10px;
+		.h3 {
+			margin-top: 20px;
+		}
+		p {
+			margin-top: 10px;
+		}
+	}
+	&__subtitlte {
+		display: inline-block;
+		border: 1px solid $blue-color;
+		border-radius: 5px;
+		padding: 3px 20px 4px 20px;
+
+	}
+	&__img {
+		position: absolute;
+		bottom: -77px;
+		right: -12px;
+		&-profile {
+			position: absolute;
+			bottom: -59px;
+			right: -7px;
+		}
+	}
+	&__imgtop {
+		position: absolute;
+		top: -63px;
+		right: 11px;
+		&-delivery {
+			position: absolute;
+			top: -37px;
+			right: 18px;
+		}
+	}
+}

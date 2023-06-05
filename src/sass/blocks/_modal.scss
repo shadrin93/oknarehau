@@ -1,0 +1,64 @@
+.overlay {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: rgba(0,0,0, .80);
+	z-index: 99;
+}
+.modal {
+	position: absolute;
+	width: 460px;
+	min-height: 161px;
+	background: $blue-color;
+	border-radius: 10px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 40px;
+	z-index: 100;
+	&__title {
+		color: $white;
+		text-align: center;
+	}
+	&__descr {
+		margin-top: 5px;
+		color: $white;
+		text-align: center;
+	}
+	&__close {
+		position: absolute;
+		top: 0;
+		right: -61px;
+		font-size: 40px;
+		line-height: 19px;
+		opacity: .5;
+		transition: all .3s ease;
+		cursor: pointer;
+		&:hover {
+			opacity: 1;
+		}
+	}
+	&__form {
+		margin-top: 25px;
+	}
+	// input.error {
+	// 	border: 1px solid red;
+	// 	margin-bottom: 0;
+	// }
+	// label.error {
+	// 	border: none;
+	// 	margin-bottom: 10px;
+	// 	color: red;
+	// 	font-weight: 100;
+	// 	font-size: 12px;
+	// }
+	// button {
+	// 	margin-top: 5px;
+	// }
+}
+
+#order, #call, #thanks {
+	display: none;
+}

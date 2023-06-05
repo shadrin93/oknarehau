@@ -1,0 +1,86 @@
+
+
+.slick-next {
+	position: absolute;
+	top: 50%;
+	right: -90px;
+	width: 40px;
+	height: 40px;
+	background: url('../icons/arrs-rigth.svg');
+	background-repeat: no-repeat;
+	z-index: 10;
+	opacity: .6;
+	transition: all .3s;
+	border: none;
+	font-size: 0;
+	&:hover {
+		opacity: 1;
+	}
+	&:after {
+		display: none;
+	}
+}
+.slick-prev {
+	position: absolute;
+	top: 50%;
+	left: -90px;
+	width: 40px;
+	height: 40px;
+	background: url('../icons/arrs-left.svg');
+	background-repeat: no-repeat;
+	z-index: 10;
+	opacity: .6;
+	transition: all .3s;
+	border: none;
+	font-size: 0;
+	&:hover {
+		opacity: 1;
+	}
+	&:after {
+		display: none;
+
+	}
+}
+
+
+.slick-dots {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style-type: none;
+	margin-top: 15px;
+
+	li {
+		list-style: none;
+	}
+	li.slick-active button {
+		position: relative;
+		border: 1px solid $blue-color;
+		width: 10px;
+		height: 10px;
+		border-radius: 100%;
+		background-color: transparent;
+		&:before {
+			content: '';
+			position: absolute;
+			top: 1px;
+			left: 1px;
+			width: 6px;
+			height: 6px;
+			border-radius: 100%;
+			background-color: $blue-color;
+		}
+	}
+	button {
+		border: 1px solid $blue-color;
+		width: 10px;
+		height: 10px;
+		border-radius: 100%;
+		background-color: transparent;
+		font-size: 0;
+		margin: 0 5px;
+
+	}
+}

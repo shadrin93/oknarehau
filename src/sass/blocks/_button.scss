@@ -1,0 +1,65 @@
+.button {
+	background-color: $orange-color;
+	padding: 13px 40px 16px 40px;
+	color: $black-color;
+	font-family: 'Corsa Grotesk';
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 19px;
+	border-radius: 100px;
+	border: none;
+	box-shadow: 0px 4px 15px rgba(255, 126, 103, 0.7);
+	transition: all .3s;
+	&:hover {
+		box-shadow: none;
+		transform: translateY(-2px);
+		background-color: saturate($orange-color, 50%);
+	}
+}
+.button_border {
+	border: 1px solid $orange-color;
+	padding: 13px 40px 16px 40px;
+	color: $black-color;
+	border-radius: 100px;
+	font-family: 'Corsa Grotesk';
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 19px;
+	background: none;
+	transition: all .3s;
+	&:hover {
+		background: $orange-color;
+		box-shadow: 0px 4px 15px rgba(255, 126, 103, 0.7);
+	}
+}
+.button_nofill {
+	position: relative;
+	background: none;
+	border: none;
+	color: $white;
+	margin-top: 13px;
+	letter-spacing: 0.05em;
+	transition: all .3s ease;
+	&::after {
+		content: '';
+		position: absolute;
+		right: -20px;
+		top: 6px;
+		width: 10px;
+		height: 10px;
+		background-image: url(../../icons/arrow-btn.svg);
+		background-repeat: no-repeat;
+	}
+	&::before {
+		content: '';
+		position: absolute;
+		left: 0px;
+		bottom: -2px;
+		width: calc(100% + 20px);
+		height: 1px;
+		background-color: $white;
+	}
+	&:hover {
+		color: #c8c8c8;
+	}
+}
